@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div style="width: 500px;margin:0 auto;padding:20px;">
+    <p class="text-center font-weight-bolder">短網址已經建立囉!</p>
+    <div class="text-center">
+        <a href="{{ short_url }}">{{ short_url }}</a>
+    </div>
+</div>
+
+{% endblock %}
